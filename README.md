@@ -17,7 +17,7 @@ https://github.com/devops2023q2/ansible
 ```
 sudo yum install -y net-tools rsync wget
 ```
- * step 2 : install artifactory 
+ * Step 2 : install artifactory 
 ```
 sudo yum install -y java-1.8.0-openjdk-devel 
 sudo su 
@@ -34,7 +34,7 @@ sudo systemctl start artifactory.service
 systemctl enable artifactory.service
 ```
 
-* step 3: testing
+* Step 3: testing
 ```
 http://<<PUBLIC_IP>>:8081/artifactory
 ```
