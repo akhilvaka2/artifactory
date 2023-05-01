@@ -1,10 +1,12 @@
 # Title
 This project is intended to set up Artifactory server
 
-# Create Artifactory server in AWS
-https://github.com/devops2023q2/terraform
+# Phase 1: Create Artifactory server in AWS
 
-# Install and configure software packages for Artifactroy
+    https://github.com/devops2023q2/terraform
+
+# Phase 2: Install and configure software packages for Artifactroy
+
 # Automation 
 * Step 1: Run playbook
 https://github.com/devops2023q2/ansible
