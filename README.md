@@ -13,6 +13,7 @@ https://github.com/devops2023q2/ansible
 
 
 # Create Repository
+http://<<PUBLIC_IP>>:8081
 Creating Repository login to artifactory server => Administration => repositories => add repositories => Local repository => Select package type : Generic => repository key : myrepo => Save and Finish
 
 # Upload and Download files from Artifactory repos
