@@ -4,12 +4,13 @@ This project is intended to set up Artifactory server
 # Create Artifactory server in AWS
 https://github.com/devops2023q2/terraform
 
+# Install and configure software packages for Artifactroy
 # Automation 
 * Step 1: Run playbook
 https://github.com/devops2023q2/ansible
 
 
-# Manual: Install and configure required software packages for Artifactroy
+# Manual steps
 * Step 1: step1: Login to EC2 Intance i.e “artifactory”
 ```
 sudo yum install -y net-tools rsync wget
