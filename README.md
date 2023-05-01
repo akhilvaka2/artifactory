@@ -12,6 +12,15 @@ This project is intended to set up Artifactory server
 https://github.com/devops2023q2/ansible
 
 
+# Create Repository
+Creating Repository login to artifactory server => Administration => repositories => add repositories => Local repository => Select package type : Generic => repository key : myrepo => Save and Finish
+
+#Upload and Download files from Artifactory repos
+* Upload
+Application => Artifactory => Artifacts => Click on repo => click on Deploy => click on select file => Deploy
+* Download
+Application => Artifactory => Artifacts => Click on repo => click on | just side to 3 dots  => click on Download 
+
 # Manual steps
 * Step 1: step1: Login to EC2 Intance i.e “artifactory”
 ```
