@@ -22,6 +22,18 @@ Application => Artifactory => Artifacts => Click on repo => click on Deploy => c
 * Download
 Application => Artifactory => Artifacts => Click on repo => click on | just side to 3 dots  => click on Download 
 
+* Upload Artifacts using curl utility
+syntax
+curl -X PUT -u <USERNAME>:<PASSWORD> -T <source_file> <base_url>/<artifacory_repo>/artifactrname
+ex
+curl -X PUT -u user:passwd -T kri http://ip:8082/artifactory/krip/k
+
+* Download artifacts from artifactory repo using curl utility
+syntax
+curl -sSf -u <USERNAME>:<PASSWORD> -O <base_url>/<artifacory_repo>/artifactrname
+ex
+curl -sSf -u user:passwd  http://ip:8082/artifactory/krip/k
+
 # Manual steps
 * Step 1: step1: Login to EC2 Intance i.e “artifactory”
 ```
